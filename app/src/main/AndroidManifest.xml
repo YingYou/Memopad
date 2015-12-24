@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.test.memopad"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="14"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher"
+            android:name="com.test.memopad.MemoPadApplication"
+            android:theme="@style/Theme.TranslucentActionBar">
+        <activity android:name="com.test.memopad.activity.HomeActivity"
+                  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <!--android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay"-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.test.memopad.activity.NewPadActivity"></activity>
+        <activity android:name=".activity.PaintViewActivity"></activity>
+        <activity android:name="com.test.memopad.activity.ColorChoiceActivity"></activity>
+    </application>
+</manifest>

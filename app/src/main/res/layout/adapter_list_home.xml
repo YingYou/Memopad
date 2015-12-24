@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@drawable/home_list_item_select"
+              android:paddingBottom="5dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:layout_height="match_parent">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/adapter_home_title"
+            android:text="便签"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/gray_cecece"
+            android:text="10:29"
+            android:id="@+id/adapter_home_date"
+
+            android:layout_below="@id/adapter_home_title"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/gray_cecece"
+            android:text="简介"
+            android:layout_below="@id/adapter_home_title"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/adapter_home_date"
+            android:id="@+id/adapter_home_details"
+            />
+
+
+
+</RelativeLayout>

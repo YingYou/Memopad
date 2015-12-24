@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@android:color/white"
+              android:layout_height="match_parent">
+
+    <!--<SearchView-->
+        <!--android:id="@+id/srv1"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:iconifiedByDefault="false"-->
+        <!--android:inputType="textFilter"-->
+        <!--android:queryHint="请输入您要查找的内容"/>-->
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="10dp"
+            android:padding="5dp"
+            android:gravity="center_vertical"
+            android:id="@+id/search_linearly"
+            android:background="@drawable/search_bg"
+            android:orientation="horizontal">
+
+        <com.test.memopad.view.PerformanceImageView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:background="@drawable/search"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="搜索"
+                android:textColor="#7f000000"
+                android:layout_marginLeft="5dp"
+                android:textSize="12.0sp"/>
+    </LinearLayout>
+
+    <com.test.memopad.swipe.SwipeMenuListView
+            android:id="@+id/pull_refresh_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/gray_cecece"
+            android:dividerHeight="0.5dp"
+            android:fadingEdge="none"
+           android:layout_below="@id/search_linearly"
+            android:scrollbars="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:smoothScrollbar="true"
+           />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/title_bg_footer"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_alignParentBottom="true">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="一个备忘录"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"
+                />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:background="@drawable/ic_new_select"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/home_new_iv"
+                android:clickable="true"
+                android:layout_marginRight="10dp"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:background="@drawable/ic_catory_select"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/home_catory_iv"
+                android:clickable="true"
+                android:layout_marginLeft="10dp"/>
+
+
+            </RelativeLayout>
+
+</RelativeLayout>

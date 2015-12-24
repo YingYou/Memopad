@@ -1,0 +1,155 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/libraries/
+* .idea/libraries/libs.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/uiDesigner.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* Memopad.iml
+* ant.properties
+* build.xml
+* out/
+* out/production/
+* out/production/Memopad/
+* out/production/Memopad/Memopad.apk
+* out/production/Memopad/Memopad.unaligned.apk
+* out/production/Memopad/com/
+* out/production/Memopad/com/test/
+* out/production/Memopad/com/test/memopad/
+* out/production/Memopad/com/test/memopad/BuildConfig.class
+* out/production/Memopad/com/test/memopad/MemoPadApplication.class
+* out/production/Memopad/com/test/memopad/R$attr.class
+* out/production/Memopad/com/test/memopad/R$color.class
+* out/production/Memopad/com/test/memopad/R$drawable.class
+* out/production/Memopad/com/test/memopad/R$id.class
+* out/production/Memopad/com/test/memopad/R$layout.class
+* out/production/Memopad/com/test/memopad/R$string.class
+* out/production/Memopad/com/test/memopad/R$style.class
+* out/production/Memopad/com/test/memopad/R.class
+* out/production/Memopad/com/test/memopad/activity/
+* out/production/Memopad/com/test/memopad/activity/BaseActivity$1.class
+* out/production/Memopad/com/test/memopad/activity/BaseActivity$2.class
+* out/production/Memopad/com/test/memopad/activity/BaseActivity.class
+* out/production/Memopad/com/test/memopad/activity/ColorChoiceActivity.class
+* out/production/Memopad/com/test/memopad/activity/HomeActivity$1.class
+* out/production/Memopad/com/test/memopad/activity/HomeActivity$2.class
+* out/production/Memopad/com/test/memopad/activity/HomeActivity$3.class
+* out/production/Memopad/com/test/memopad/activity/HomeActivity$4.class
+* out/production/Memopad/com/test/memopad/activity/HomeActivity.class
+* out/production/Memopad/com/test/memopad/activity/MainActivity.class
+* out/production/Memopad/com/test/memopad/activity/NewPadActivity$1.class
+* out/production/Memopad/com/test/memopad/activity/NewPadActivity$2.class
+* out/production/Memopad/com/test/memopad/activity/NewPadActivity$3.class
+* out/production/Memopad/com/test/memopad/activity/NewPadActivity.class
+* out/production/Memopad/com/test/memopad/activity/PaintViewActivity$1.class
+* out/production/Memopad/com/test/memopad/activity/PaintViewActivity$2.class
+* out/production/Memopad/com/test/memopad/activity/PaintViewActivity$3.class
+* out/production/Memopad/com/test/memopad/activity/PaintViewActivity$4.class
+* out/production/Memopad/com/test/memopad/activity/PaintViewActivity$5.class
+* out/production/Memopad/com/test/memopad/activity/PaintViewActivity.class
+* out/production/Memopad/com/test/memopad/adapter/
+* out/production/Memopad/com/test/memopad/adapter/HomeListViewAdapter$ViewHolder.class
+* out/production/Memopad/com/test/memopad/adapter/HomeListViewAdapter.class
+* out/production/Memopad/com/test/memopad/color/
+* out/production/Memopad/com/test/memopad/color/AlphaPatternDrawable.class
+* out/production/Memopad/com/test/memopad/color/ColorPickerDialog$1.class
+* out/production/Memopad/com/test/memopad/color/ColorPickerDialog$OnColorChangedListener.class
+* out/production/Memopad/com/test/memopad/color/ColorPickerDialog.class
+* out/production/Memopad/com/test/memopad/color/ColorPickerPanelView.class
+* out/production/Memopad/com/test/memopad/color/ColorPickerPreference$SavedState$1.class
+* out/production/Memopad/com/test/memopad/color/ColorPickerPreference$SavedState.class
+* out/production/Memopad/com/test/memopad/color/ColorPickerPreference.class
+* out/production/Memopad/com/test/memopad/color/ColorPickerView$OnColorChangedListener.class
+* out/production/Memopad/com/test/memopad/color/ColorPickerView.class
+* out/production/Memopad/com/test/memopad/swipe/
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenu.class
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenuAdapter.class
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenuCreator.class
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenuItem.class
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenuLayout$1.class
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenuLayout.class
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenuListView$1.class
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenuListView$OnMenuItemClickListener.class
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenuListView$OnMenuStateChangeListener.class
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenuListView$OnSwipeListener.class
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenuListView.class
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenuView$OnSwipeItemClickListener.class
+* out/production/Memopad/com/test/memopad/swipe/SwipeMenuView.class
+* out/production/Memopad/com/test/memopad/utils/
+* out/production/Memopad/com/test/memopad/utils/ActionBarUtils.class
+* out/production/Memopad/com/test/memopad/utils/FileUtil.class
+* out/production/Memopad/com/test/memopad/utils/Utils.class
+* out/production/Memopad/com/test/memopad/view/
+* out/production/Memopad/com/test/memopad/view/ExpandListView.class
+* out/production/Memopad/com/test/memopad/view/NotifyingScrollView$OnScrollChangedListener.class
+* out/production/Memopad/com/test/memopad/view/NotifyingScrollView.class
+* out/production/Memopad/com/test/memopad/view/PaintIt/
+* out/production/Memopad/com/test/memopad/view/PaintIt/OnPathListener.class
+* out/production/Memopad/com/test/memopad/view/PaintIt/PaintView$1.class
+* out/production/Memopad/com/test/memopad/view/PaintIt/PaintView$PreviewThread.class
+* out/production/Memopad/com/test/memopad/view/PaintIt/PaintView.class
+* out/production/Memopad/com/test/memopad/view/PaintIt/PathNode$Node.class
+* out/production/Memopad/com/test/memopad/view/PaintIt/PathNode.class
+* out/production/Memopad/com/test/memopad/view/PaintIt/UserInfo.class
+* out/production/Memopad/com/test/memopad/view/PerformanceImageView.class
+* out/production/Memopad/com/test/memopad/view/PerformanceTextView.class
+* out/production/Memopad/com/test/memopad/view/SelectAaPopupWindow$1.class
+* out/production/Memopad/com/test/memopad/view/SelectAaPopupWindow.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.1.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* libs/photoview.jar => app/libs/photoview.jar
+* libs/universal-image-loader-1.9.3.jar => app/libs/universal-image-loader-1.9.3.jar
+* libs/xUtils-2.6.11.jar => app/libs/xUtils-2.6.11.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

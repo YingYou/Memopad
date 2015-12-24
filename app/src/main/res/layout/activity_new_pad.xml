@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/framlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:id="@+id/show_tool_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:clickable="true"
+            android:padding="5dp"
+            android:src="@drawable/icon_add_tool" />
+
+        <LinearLayout
+            android:id="@+id/lineay_tool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+
+            android:visibility="gone">
+
+            <com.test.memopad.view.PerformanceImageView
+                android:id="@+id/xm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/xm" />
+
+            <com.test.memopad.view.PerformanceTextView
+                android:id="@+id/aa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Aa"
+                android:textColor="@color/color_fbd31d_text" />
+
+            <com.test.memopad.view.PerformanceImageView
+                android:id="@+id/xj"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/xj" />
+
+            <com.test.memopad.view.PerformanceImageView
+                android:id="@+id/xq"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/xq" />
+
+            <com.test.memopad.view.PerformanceImageView
+                android:id="@+id/iconfont_close"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:padding="5dp"
+                android:src="@drawable/iconfont_close" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <ScrollView
+        android:id="@+id/lineary_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/framlayout"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/child_lineary"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <!--<EditText-->
+
+            <!--android:layout_width="fill_parent" android:layout_height="wrap_content"-->
+            <!--android:text="111111122233333345555555555555555ffffffffffffffffffffrrrrr111113eeeee11111111111111113333444444444"-->
+            <!--android:textSize="14sp"-->
+            <!--android:id="@+id/edit_memopad"-->
+            <!--android:textCursorDrawable="@drawable/color_cursor"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:layout_weight="1.0"-->
+            <!--android:gravity="top"-->
+            <!--android:autoText="true"-->
+
+            <!--android:drawableStart="@drawable/iconfont_selectfill"-->
+            <!--android:capitalize="sentences"-->
+            <!--/>-->
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
