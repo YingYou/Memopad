@@ -1,11 +1,10 @@
 package com.test.memopad.activity;
 
 import android.app.ActionBar;
-import android.app.Activity;
-import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
+import android.widget.ImageView;
 
 import com.test.memopad.R;
 
@@ -46,6 +45,8 @@ public class BaseActivity extends FragmentActivity {
                 finish();
             }
         });
+
+        ImageView share_iv = (ImageView)actionBar.getCustomView().findViewById(R.id.share_iv);
 
         actionBar.setDisplayShowHomeEnabled(false);
     }
